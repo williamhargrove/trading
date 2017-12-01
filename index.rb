@@ -26,7 +26,7 @@ class Index
 
 end
 
-ftse250 = Index.new('^FTMC.csv')
+ftse250 = Index.new('^xFTMC.csv')
 
 puts ftse250.sma(21)
 
